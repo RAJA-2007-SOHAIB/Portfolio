@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header {
+    background-color: #e5e5e59a;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 1vh 8vw;
+    flex-shrink: 0;
+    align-items: baseline;
+    color: gray;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: 400;
+    
+}
+
+.header .header-links {
+
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 2vw;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    cursor: pointer;
+    
+}
