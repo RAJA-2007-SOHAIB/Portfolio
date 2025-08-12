@@ -50,27 +50,30 @@ body{
 .main .text{
     display: flex;
     flex-direction: column;
-    gap: 3vh;
-    font-size: 16px;
+    gap: 4vh;
     width: 50%;
-    flex-shrink: 1;
+    justify-content: space-around;
 }
 
 .main .main-text{
     font-size: 32px;
     font-weight: 600;
-    
-    
+}
+
+
+.main .container .subtext{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 4vh;
 }
 
 .main .text button{
     background-color: rgb(29, 138, 246);
     border-radius: 25px;
     color: white;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 200;
     cursor: pointer;
-    
 }
 
 .main .medialinks{
@@ -78,14 +81,12 @@ body{
     padding: 0;
     display: flex;
     gap: 1.5vw;
-    
 }
 
 .main .medialinks img{
     border-radius: 50%;
     width: 3.5vw;
     cursor: pointer;
-    
 }
 
 .main .dp{
@@ -93,15 +94,13 @@ body{
     padding-left: 3vw;
     padding-right: 3vw;
     margin-left: auto;
-    max-width: 60%;
-    
-      
 }
 
 .dp img{
     width: 100%;
     border: 3px solid black;
 }
+
 
 
 
