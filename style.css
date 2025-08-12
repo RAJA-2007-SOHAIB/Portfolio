@@ -14,7 +14,7 @@ body{
     border: 2px solid black;
     display: flex;
     justify-content: space-between;
-    padding: 1vh 8vw;
+    padding: 1vw 8vw;
     flex-shrink: 0;
     align-items: baseline;
     color: gray;
@@ -38,3 +38,70 @@ body{
     cursor: pointer;
     
 }
+
+
+.main{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    padding: 5vw 8vw;
+}
+
+.main .text{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    font-size: 16px;
+    width: 50%;
+    flex-shrink: 1;
+}
+
+.main .main-text{
+    font-size: 32px;
+    font-weight: 600;
+    
+    
+}
+
+.main .text button{
+    background-color: rgb(29, 138, 246);
+    border-radius: 25px;
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+    cursor: pointer;
+    
+}
+
+.main .medialinks{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1.5vw;
+    
+}
+
+.main .medialinks img{
+    border-radius: 50%;
+    width: 3.5vw;
+    cursor: pointer;
+    
+}
+
+.main .dp{
+    display: flex;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    margin-left: auto;
+    max-width: 60%;
+    
+      
+}
+
+.dp img{
+    width: 100%;
+    border: 3px solid black;
+}
+
+
+
