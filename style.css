@@ -27,16 +27,21 @@ body{
 }
 
 .header .header-links {
-
     list-style: none;
     padding: 0;
     display: flex;
-    gap: 2vw;
+    gap: 1.3vw;
     font-size: 16px;
     font-weight: 300;
     margin: 0;
     cursor: pointer;
-    
+}
+
+.header .header-links a{
+    text-decoration: inherit;
+    color: #000;
+    font-size: inherit;
+    font-weight: inherit;
 }
 
 
