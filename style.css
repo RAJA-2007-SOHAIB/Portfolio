@@ -1,9 +1,9 @@
 * {
     box-sizing: border-box;
     font-family: sans-serif;
-    
 }
-body{
+
+body {
     display: flex;
     flex-direction: column;
 }
@@ -14,16 +14,17 @@ body{
     border: 2px solid black;
     display: flex;
     justify-content: space-between;
-    padding: 1vw 8vw;
+    padding: 1vw 5vw;
     flex-shrink: 0;
     align-items: baseline;
     color: gray;
+    gap: 1vw;
 }
 
 .header .logo {
     font-size: 24px;
     font-weight: 400;
-    
+
 }
 
 .header .header-links {
@@ -37,7 +38,7 @@ body{
     cursor: pointer;
 }
 
-.header .header-links a{
+.header .header-links a {
     text-decoration: inherit;
     color: #000;
     font-size: inherit;
@@ -45,67 +46,68 @@ body{
 }
 
 
-.main{
+.main {
     background-color: lightgray;
     display: flex;
     flex-direction: row;
-    padding: 5vw 8vw;
+    padding: 5vw 5vw;
+
 }
 
-.main .text{
+.main .text {
     display: flex;
     flex-direction: column;
     gap: 4vh;
-    width: 50%;
+    min-width: 50%;
     justify-content: space-around;
+
 }
 
-.main .main-text{
+.main .main-text {
     font-size: 32px;
     font-weight: 600;
 }
 
 
-.main .container .subtext{
+.main .container .subtext {
     font-size: 24px;
     font-weight: 400;
     margin-bottom: 4vh;
 }
 
-.main .text button{
+.main .text button {
     background-color: rgb(29, 138, 246);
     border-radius: 25px;
+    padding: 1vw 3vw;
     color: white;
     font-size: 16px;
     font-weight: 200;
     cursor: pointer;
+    border: none;
 }
 
-.main .medialinks{
+.main .medialinks {
     list-style: none;
     padding: 0;
     display: flex;
     gap: 1.5vw;
 }
 
-.main .medialinks img{
+.main .medialinks img {
     border-radius: 50%;
     width: 3.5vw;
     cursor: pointer;
 }
 
-.main .dp{
+.main .dp {
     display: flex;
-    padding-left: 3vw;
-    padding-right: 3vw;
+    padding-left: 1vh;
     margin-left: auto;
+    max-width: 45%;
 }
 
-.dp img{
+.dp img {
     width: 100%;
     border: 3px solid black;
 }
-
-
-
 
