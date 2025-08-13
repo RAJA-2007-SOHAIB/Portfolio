@@ -10,21 +10,20 @@ body {
 
 
 .header {
-    background-color: #e5e5e59a;
-    border: 2px solid black;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e7eb;
     display: flex;
     justify-content: space-between;
     padding: 1vw 5vw;
     flex-shrink: 0;
     align-items: baseline;
-    color: gray;
     gap: 1vw;
 }
 
 .header .logo {
     font-size: 24px;
     font-weight: 400;
-
+    color: #1f2937;
 }
 
 .header .header-links {
@@ -35,19 +34,22 @@ body {
     font-size: 16px;
     font-weight: 300;
     margin: 0;
-    cursor: pointer;
 }
 
 .header .header-links a {
     text-decoration: inherit;
-    color: #000;
+    color: #4b5563;
     font-size: inherit;
     font-weight: inherit;
 }
 
+.header .header-links a:hover{
+    color: #2563eb;
+}
+
 
 .main {
-    background-color: lightgray;
+    background-color: #f9fafb;
     display: flex;
     flex-direction: row;
     padding: 5vw 5vw;
@@ -60,12 +62,13 @@ body {
     gap: 4vh;
     min-width: 50%;
     justify-content: space-around;
-
+    
 }
 
 .main .main-text {
     font-size: 32px;
     font-weight: 600;
+    color: #111827;
 }
 
 
@@ -73,10 +76,11 @@ body {
     font-size: 24px;
     font-weight: 400;
     margin-bottom: 4vh;
+    color: #6b7280;
 }
 
 .main .text button {
-    background-color: rgb(29, 138, 246);
+    background-color: #2563eb;
     border-radius: 25px;
     padding: 1vw 3vw;
     color: white;
