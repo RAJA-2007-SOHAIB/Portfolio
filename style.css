@@ -24,16 +24,20 @@ body {
     font-size: 24px;
     font-weight: 400;
     color: #1f2937;
+    flex-grow: 1;
 }
 
 .header .header-links {
     list-style: none;
     padding: 0;
     display: flex;
-    gap: 1.3vw;
     font-size: 16px;
     font-weight: 300;
-    margin: 0;
+    margin: initial;
+    flex-grow: 4;
+    gap: 2vw;
+    max-width: 65%;
+    justify-content: flex-end;
 }
 
 .header .header-links a {
@@ -43,7 +47,7 @@ body {
     font-weight: inherit;
 }
 
-.header .header-links a:hover{
+.header .header-links a:hover {
     color: #2563eb;
 }
 
@@ -53,6 +57,7 @@ body {
     display: flex;
     flex-direction: row;
     padding: 5vw 5vw;
+    gap: 1vw;
 
 }
 
@@ -60,9 +65,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 4vh;
-    min-width: 50%;
+    min-width: 45%;
     justify-content: space-around;
-    
 }
 
 .main .main-text {
@@ -99,13 +103,13 @@ body {
 
 .main .medialinks img {
     border-radius: 50%;
-    width: 3.5vw;
+    width: 5vw;
     cursor: pointer;
 }
 
 .main .dp {
     display: flex;
-    padding-left: 1vh;
+    padding-left: 1vw;
     margin-left: auto;
     max-width: 45%;
 }
@@ -113,5 +117,5 @@ body {
 .dp img {
     width: 100%;
     border: 3px solid black;
-}
 
+}
